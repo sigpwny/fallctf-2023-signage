@@ -34,7 +34,7 @@ async function seqFadeIn(scope: any, animate: any, delay: number = 0) {
 }
 
 export default function SignagePage() {
-  const time_start = "2023-09-22T23:46:00-05:00"
+  const time_start = "2023-09-23T12:00:00-05:00"
   const time_close = "2023-09-23T18:00:00-05:00"
   const [loaded, setLoaded] = useState(false);
   const [scopeHeader, animateScopeHeader] = useAnimate();
